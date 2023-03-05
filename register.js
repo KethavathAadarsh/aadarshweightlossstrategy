@@ -12,16 +12,15 @@ app.use(bodyParser.json());
 
 // database configuration
 const config = {
-  user: 'HOC\aadarsh',
-  password: 'your_password',
-  server: '(localdb)\Local',
+  user: 'HOC\\aadarsh',
+  password: '',
+  server: '(localdb)\\Local',
   database: 'registration',
   options: {
-    encrypt: true, // required for Azure SQL database
-    trustServerCertificate: true // required for Azure SQL database
+    encrypt: true,
+    trustServerCertificate: true
   }
 };
-
 // register route
 app.post('/register', (req, res) => {
   const { username, email, contact, password } = req.body;
