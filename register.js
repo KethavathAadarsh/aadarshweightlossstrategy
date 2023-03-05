@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 const config = {
   user: 'HOC\aadarsh',
   password: 'your_password',
-  server: 'localhost',
+  server: '(localdb)\Local',
   database: 'registration',
   options: {
     encrypt: true, // required for Azure SQL database
