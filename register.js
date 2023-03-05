@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 // database configuration
 const config = {
-  user: 'your_username',
+  user: 'HOC\aadarsh',
   password: 'your_password',
   server: 'localhost',
   database: 'registration',
